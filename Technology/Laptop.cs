@@ -15,10 +15,9 @@ namespace Technology
             RamInGb = ram;
             CapacityInGb = capacity;
             Manufacturer = manufacturer;
-        
         }
 
-        //public void int IdNumber()
+        //public int IdNumber() // not sureeee
         //{
         //    ID += 1;
         //}

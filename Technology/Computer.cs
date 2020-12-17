@@ -17,6 +17,7 @@ namespace Technology
             RamInGb = ram;
             CapacityInGb = capacity;
             Manufacturer = manufacturer;
+            ID += 1;
         }
 
         public void Upgrade()

@@ -15,5 +15,7 @@ namespace Technology
             IsWaterproof = isWaterproof;
             CameraInPixels = cameraInPixels;
         }
+
+        
     }
 }
