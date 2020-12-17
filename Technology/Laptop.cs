@@ -17,9 +17,9 @@ namespace Technology
             Manufacturer = manufacturer;
         }
 
-        //public int IdNumber() // not sureeee
-        //{
-        //    ID += 1;
-        //}
+        public override int IdNumber()
+        {
+            return ID += 1;
+        }
     }
 }

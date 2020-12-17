@@ -44,5 +44,9 @@ namespace Technology
             }
         }
 
+        public override int IdNumber()
+        {
+            return ID += 1;
+        }
     }
 }

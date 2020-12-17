@@ -8,6 +8,6 @@ namespace Technology
     {
         public static int ID { get; set; } = 111;
 
-      //  public abstract int IdNumber(); // ? not sureeee
+        public abstract int IdNumber(); // implicitly virtual
     }
 }

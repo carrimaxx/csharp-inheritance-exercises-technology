@@ -16,6 +16,9 @@ namespace Technology
             CameraInPixels = cameraInPixels;
         }
 
-        
+        public override int IdNumber()
+        {
+            return ID += 1;
+        }
     }
 }
